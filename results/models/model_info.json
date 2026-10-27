@@ -1,0 +1,38 @@
+{
+  "version": "5.0",
+  "n_models": 5,
+  "target_names": [
+    "stiffness_kN_m",
+    "lateral_stiffness_kN_m",
+    "torsional_stiffness_Nm_rad",
+    "max_deflection_mm",
+    "max_load_N",
+    "mass_kg",
+    "plastic_strain_percent",
+    "structural_efficiency",
+    "safety_factor",
+    "adhesion_risk",
+    "print_complexity",
+    "recovery_ratio",
+    "shape_memory_ratio",
+    "energy_stored_mJ",
+    "life_cycles",
+    "life_km",
+    "goodman_ratio"
+  ],
+  "scalers_path": "results/models/target_scalers.pkl",
+  "model_paths": [
+    "results/models/gnn_model_v5_0.pt",
+    "results/models/gnn_model_v5_1.pt",
+    "results/models/gnn_model_v5_2.pt",
+    "results/models/gnn_model_v5_3.pt",
+    "results/models/gnn_model_v5_4.pt"
+  ],
+  "out_dim": 17,
+  "node_dim": 6,
+  "edge_dim": 8,
+  "genome_dim": 18,
+  "fea_dim": 22,
+  "hidden_dim": 256,
+  "fea_scaler_path": "results/models/fea_scaler.pkl"
+}

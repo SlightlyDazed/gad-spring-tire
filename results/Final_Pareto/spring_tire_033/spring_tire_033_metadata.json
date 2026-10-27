@@ -1,0 +1,201 @@
+{
+  "version": "6.0",
+  "id": 33,
+  "genome": [
+    0.012380483437329625,
+    0.9514894451848458,
+    0.0043196287747502725,
+    0.9503564080541871,
+    0.9487902239237527,
+    0.553904027441675,
+    0.9705546248038956,
+    0.9969572145516523,
+    0.9966168474872444,
+    0.30683512068751895,
+    0.9914436073782033,
+    0.9671642461908804,
+    0.9872555920568729,
+    0.9061451964525651,
+    0.08408057102812902,
+    0.9972174864262838,
+    0.9885604527925274,
+    0.21180514592926503
+  ],
+  "params": {
+    "d_ext_mm": 302.47609668746594,
+    "d_rim_mm": 242.72341677772687,
+    "width_mm": 50.86392575495005,
+    "n_radios": 27,
+    "wall_thickness_mm": 9.590321791390021,
+    "angle_cross_deg": 57.69520137208375
+  },
+  "sector_map": [
+    {
+      "sector": 0,
+      "angle_range": "0\u00b0\u201345\u00b0",
+      "material_id": 5,
+      "material_name": "PLA"
+    },
+    {
+      "sector": 1,
+      "angle_range": "45\u00b0\u201390\u00b0",
+      "material_id": 5,
+      "material_name": "PLA"
+    },
+    {
+      "sector": 2,
+      "angle_range": "90\u00b0\u2013135\u00b0",
+      "material_id": 5,
+      "material_name": "PLA"
+    },
+    {
+      "sector": 3,
+      "angle_range": "135\u00b0\u2013180\u00b0",
+      "material_id": 2,
+      "material_name": "TPU_75D"
+    },
+    {
+      "sector": 4,
+      "angle_range": "180\u00b0\u2013225\u00b0",
+      "material_id": 5,
+      "material_name": "PLA"
+    },
+    {
+      "sector": 5,
+      "angle_range": "225\u00b0\u2013270\u00b0",
+      "material_id": 5,
+      "material_name": "PLA"
+    },
+    {
+      "sector": 6,
+      "angle_range": "270\u00b0\u2013315\u00b0",
+      "material_id": 5,
+      "material_name": "PLA"
+    },
+    {
+      "sector": 7,
+      "angle_range": "315\u00b0\u2013360\u00b0",
+      "material_id": 5,
+      "material_name": "PLA"
+    }
+  ],
+  "print_guide": {
+    "PLA": {
+      "stl_file": "PLA.stl",
+      "n_sectors": 7,
+      "pct_of_tire": 87.5,
+      "print_temp_C": 200,
+      "bed_temp_C": 80,
+      "print_order": 3,
+      "notes": "PLA: f\u00e1cil de imprimir, enfriar bien entre capas"
+    },
+    "TPU_75D": {
+      "stl_file": "TPU_75D.stl",
+      "n_sectors": 1,
+      "pct_of_tire": 12.5,
+      "print_temp_C": 240,
+      "bed_temp_C": 60,
+      "print_order": 4,
+      "notes": "TPU semir\u00edgido: imprimir a 30-40mm/s, ventilador al 100%"
+    }
+  },
+  "objectives": {
+    "stiffness_kN_m": 798.5534137045055,
+    "lateral_stiffness_kN_m": 505.18095654516713,
+    "torsional_stiffness_Nm_rad": 375742.59928204375,
+    "safety_factor": 34.991617623111964,
+    "life_cycles": 1000000000000.0,
+    "recovery_ratio": 0.9339999999999999,
+    "energy_stored_mJ": 15698.58542219032,
+    "mass_kg": 1.9318312489133307,
+    "max_deflection_mm": 0.6261321928116115,
+    "print_complexity": 0.3333333333333333,
+    "adhesion_risk": 0.6000000000000001,
+    "goodman_ratio": 0,
+    "structural_efficiency": 413.3660298505357,
+    "plastic_strain_percent": 0.0,
+    "shape_memory_ratio": 0.06600000000000006
+  },
+  "fem3d_validation": null,
+  "files": {
+    "full_stl": "spring_tire_033.stl",
+    "parts_dir": "spring_tire_033_parts",
+    "parts": {
+      "TPU_75D": "TPU_75D.stl",
+      "PLA": "PLA.stl"
+    }
+  },
+  "validation": {
+    "full": {
+      "n_vertices": 7791,
+      "n_faces": 14144,
+      "is_watertight": true,
+      "volume_cm3": 2902.577690450469,
+      "bounds_mm": [
+        [
+          -153.76266479492188,
+          -154.06492614746094,
+          -25.431962966918945
+        ],
+        [
+          153.82754516601562,
+          154.06492614746094,
+          25.431962966918945
+        ]
+      ],
+      "euler_number": 719,
+      "geometry_validation": {
+        "valid": true,
+        "stats": {
+          "n_vertices": 7791,
+          "n_faces": 14144,
+          "is_watertight": true
+        },
+        "components": {},
+        "spokes": {},
+        "errors": [],
+        "warnings": []
+      }
+    },
+    "parts": {
+      "TPU_75D": {
+        "n_vertices": 1598,
+        "n_faces": 1795,
+        "is_watertight": false,
+        "volume_cm3": 0.0,
+        "bounds_mm": [
+          [
+            -153.76266479492188,
+            -67.65653228759766,
+            -25.431962966918945
+          ],
+          [
+            3.5441813468933105,
+            149.65968322753906,
+            25.431962966918945
+          ]
+        ],
+        "euler_number": 91
+      },
+      "PLA": {
+        "n_vertices": 7404,
+        "n_faces": 12349,
+        "is_watertight": false,
+        "volume_cm3": 0.0,
+        "bounds_mm": [
+          [
+            -153.76266479492188,
+            -154.06492614746094,
+            -25.431962966918945
+          ],
+          [
+            153.82754516601562,
+            154.06492614746094,
+            25.431962966918945
+          ]
+        ],
+        "euler_number": 620
+      }
+    }
+  }
+}

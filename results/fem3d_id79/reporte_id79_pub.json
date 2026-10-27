@@ -1,0 +1,582 @@
+{
+  "metadata": {
+    "candidato": 79,
+    "version": "pub-1.0",
+    "timestamp": "2026-03-16 19:08:13",
+    "solver": "skfem | skfem-12.0.1 | TetP2",
+    "disclaimer": {
+      "rigidez_k": "k calculado con Timoshenko anal\u00edtico. Incertidumbre \u00b130-40%. Requiere validaci\u00f3n experimental.",
+      "sigma_vm": "\u03c3_vm del FEM con malla del estudio de convergencia. GCI = 305.3% ",
+      "temperatura": "Esfuerzo t\u00e9rmico estimado con factor restricci\u00f3n 0.15. Rango real 0.05-0.40. Requiere an\u00e1lisis de contacto completo.",
+      "uv_degradacion": "k_uv estimados de datos LEO. Sin datos marcianos espec\u00edficos."
+    },
+    "references": [
+      {
+        "id": 1,
+        "cite": "Logg et al. (2012). FEniCS Book. Springer. DOI:10.1007/978-3-642-23099-8"
+      },
+      {
+        "id": 2,
+        "cite": "Gustafsson et al. (2020). scikit-fem. JOSS 5(52). DOI:10.21105/joss.02369"
+      },
+      {
+        "id": 3,
+        "cite": "Simhadri et al. (2019). J.Mater.Res.Tech 8(2):3160"
+      },
+      {
+        "id": 4,
+        "cite": "Fernandez-Vicente et al. (2016). Rapid Prototyping J 22(4)"
+      },
+      {
+        "id": 5,
+        "cite": "Rankouhi et al. (2016). J.Manuf.Sci.Eng 138(2)"
+      },
+      {
+        "id": 6,
+        "cite": "Dorigato et al. (2019). J.Polym.Eng 39(2):1-11"
+      },
+      {
+        "id": 7,
+        "cite": "Peterson (1974). Stress Concentration Factors. Wiley."
+      },
+      {
+        "id": 8,
+        "cite": "Shigley (2011). Mechanical Engineering Design. McGraw-Hill."
+      },
+      {
+        "id": 9,
+        "cite": "Roache (1998). Verification & Validation in CFD. Hermosa."
+      },
+      {
+        "id": 10,
+        "cite": "Hassler et al. (2014). Science 343(6169). DOI:10.1126/science.1244797"
+      },
+      {
+        "id": 11,
+        "cite": "Treloar (1975). Physics of Rubber Elasticity. Oxford."
+      }
+    ]
+  },
+  "params_id79": {
+    "d_ext": 310.5742115286245,
+    "d_rim": 108.86202828254908,
+    "width": 50.51639594449272,
+    "n_radios": 28,
+    "wall": 9.458715298781255,
+    "angle": 51.596936714256714,
+    "spoke_t": 11.976230546307375,
+    "n_layers": 2,
+    "sectors": [
+      2,
+      5,
+      4,
+      2,
+      1,
+      5,
+      4,
+      2
+    ]
+  },
+  "geometry": {
+    "r_ext": 155.28710576431226,
+    "r_rim": 54.43101414127454,
+    "r_tread_in": 136.36967516674974,
+    "r_rim_out": 68.61908708944642,
+    "L": 67.75058807730332,
+    "sw": 37.83486119512502,
+    "st": 11.976230546307375,
+    "w": 9.458715298781255,
+    "A": 453.1190203603559,
+    "Iw": 5415.908795041174,
+    "Is": 54052.44414872377,
+    "Jp": 59468.35294376494,
+    "rg": 3.457239964893791,
+    "ar": 0.9005364296069243,
+    "G_avg": 532.0796460176991,
+    "n_rad": 28,
+    "n_lay": 2,
+    "width": 50.51639594449272
+  },
+  "fem3d_worst_case": {
+    "n_nodes": 59486,
+    "n_elements": 309174,
+    "n_dofs": 1328466,
+    "t_solve": 121.58099341392517,
+    "mat_name": "TPU_85A",
+    "E": 25.0,
+    "nu": 0.47,
+    "sigma_vm_max": 0.7478414584131916,
+    "sigma_nom": 0.6850812254406475,
+    "Kt_rim": 1.0916099152070273,
+    "Kt_tread": 0.7843909029265764,
+    "Kt_max": 1.0916099152070273,
+    "SF_strength": 20.057727251211467,
+    "plastic_pct": 0.0,
+    "F_ax": 310.4233337389383,
+    "F_lat": 246.06552627389132,
+    "n_c": 4
+  },
+  "fem3d_by_material": {
+    "TPU_85A": {
+      "n_nodes": 59486,
+      "n_elements": 309174,
+      "n_dofs": 1328466,
+      "t_solve": 121.26256370544434,
+      "mat_name": "TPU_85A",
+      "E": 25.0,
+      "nu": 0.47,
+      "sigma_vm_max": 0.7478414584131916,
+      "sigma_nom": 0.6850812254406475,
+      "Kt_rim": 1.0916099152070273,
+      "Kt_tread": 0.7843909029265764,
+      "Kt_max": 1.0916099152070273,
+      "SF_strength": 20.057727251211467,
+      "plastic_pct": 0.0,
+      "F_ax": 310.4233337389383,
+      "F_lat": 246.06552627389132,
+      "n_c": 4
+    },
+    "TPU_75D": {
+      "n_nodes": 59486,
+      "n_elements": 309174,
+      "n_dofs": 1328466,
+      "t_solve": 99.61389255523682,
+      "mat_name": "TPU_75D",
+      "E": 200.0,
+      "nu": 0.45,
+      "sigma_vm_max": 0.7885870968897776,
+      "sigma_nom": 0.6850812254406475,
+      "Kt_rim": 1.1510855466555145,
+      "Kt_tread": 0.8234552003455952,
+      "Kt_max": 1.1510855466555145,
+      "SF_strength": 50.723629840967185,
+      "plastic_pct": 0.0,
+      "F_ax": 310.4233337389383,
+      "F_lat": 246.06552627389132,
+      "n_c": 4
+    },
+    "ABS": {
+      "n_nodes": 59486,
+      "n_elements": 309174,
+      "n_dofs": 1328466,
+      "t_solve": 76.51489400863647,
+      "mat_name": "ABS",
+      "E": 2200.0,
+      "nu": 0.38,
+      "sigma_vm_max": 0.874272407206183,
+      "sigma_nom": 0.6850812254406475,
+      "Kt_rim": 1.2761587600708906,
+      "Kt_tread": 0.9378650120619969,
+      "Kt_max": 1.2761587600708906,
+      "SF_strength": 45.75233036099542,
+      "plastic_pct": 0.0,
+      "F_ax": 310.4233337389383,
+      "F_lat": 246.06552627389132,
+      "n_c": 4
+    },
+    "PLA": {
+      "n_nodes": 59486,
+      "n_elements": 309174,
+      "n_dofs": 1328466,
+      "t_solve": 71.58513402938843,
+      "mat_name": "PLA",
+      "E": 3500.0,
+      "nu": 0.36,
+      "sigma_vm_max": 0.8927161185889602,
+      "sigma_nom": 0.6850812254406475,
+      "Kt_rim": 1.3030806938473039,
+      "Kt_tread": 0.9650783717177136,
+      "Kt_max": 1.3030806938473039,
+      "SF_strength": 61.60973108330763,
+      "plastic_pct": 0.0,
+      "F_ax": 310.4233337389383,
+      "F_lat": 246.06552627389132,
+      "n_c": 4
+    }
+  },
+  "stiffness": {
+    "k_vertical_kNm": 796.5552732722557,
+    "k_lateral_kNm": 401.9569050258156,
+    "k_torsional_Nm_rad": 13076.98176920884,
+    "k_axial_component": 6173.763017195469,
+    "k_flexural_component": 121.21516063445125,
+    "delta_design_mm": 1.9891641168322356,
+    "uncertainty_pct": 35.0,
+    "note": "Modelo Timoshenko + saturaci\u00f3n Voigt. K_MAX ad-hoc. Requiere ensayo de compresi\u00f3n est\u00e1tica para validaci\u00f3n. Incertidumbre estimada \u00b130-40%."
+  },
+  "buckling": {
+    "slenderness": 19.59672709018469,
+    "lambda_transition": 27.02500186273097,
+    "P_cr_N": 13568.339842906635,
+    "F_spoke_N": 396.11979166666663,
+    "SF_buckling": 34.253122737993216,
+    "method": "Johnson (columna corta)",
+    "ref": "Shigley (2011). Mechanical Engineering Design. McGraw-Hill. Cap. 4."
+  },
+  "fatigue": {
+    "TPU_85A": {
+      "N_f": 1000000000000.0,
+      "life_km": 975697661.3327692,
+      "N_mission_cycles": 1795638.2078510148,
+      "safe_mission": 1,
+      "goodman_ratio": 0.07040119223889754,
+      "sigma_amp": 0.33652865628593626,
+      "sigma_mean": 0.4113128021272554,
+      "Se_MPa": 6.824999999999999,
+      "S_ut_MPa": 19.5,
+      "SF_fatigue": 20.057727251211467,
+      "ref": "Dorigato et al. (2019). J.Polym.Eng 39(2):1-11",
+      "note": "b estimado. Requiere curva S-N experimental FDM."
+    },
+    "TPU_75D": {
+      "N_f": 1000000000000.0,
+      "life_km": 975697661.3327692,
+      "N_mission_cycles": 1795638.2078510148,
+      "safe_mission": 1,
+      "goodman_ratio": 0.026400447089586575,
+      "sigma_amp": 0.33652865628593626,
+      "sigma_mean": 0.4113128021272554,
+      "Se_MPa": 18.2,
+      "S_ut_MPa": 52.0,
+      "SF_fatigue": 53.487272669897244,
+      "ref": "Simhadri et al. (2019). J.Mater.Res.Tech 8(2):3160-3169",
+      "note": "b estimado. Requiere curva S-N experimental FDM."
+    },
+    "ABS": {
+      "N_f": 1000000000000.0,
+      "life_km": 975697661.3327692,
+      "N_mission_cycles": 1795638.2078510148,
+      "safe_mission": 1,
+      "goodman_ratio": 0.026400447089586575,
+      "sigma_amp": 0.33652865628593626,
+      "sigma_mean": 0.4113128021272554,
+      "Se_MPa": 18.2,
+      "S_ut_MPa": 52.0,
+      "SF_fatigue": 53.487272669897244,
+      "ref": "Rankouhi et al. (2016). J.Manuf.Sci.Eng 138(2)",
+      "note": "b estimado. Requiere curva S-N experimental FDM."
+    },
+    "PLA": {
+      "N_f": 1000000000000.0,
+      "life_km": 975697661.3327692,
+      "N_mission_cycles": 1795638.2078510148,
+      "safe_mission": 1,
+      "goodman_ratio": 0.019200325156062965,
+      "sigma_amp": 0.33652865628593626,
+      "sigma_mean": 0.4113128021272554,
+      "Se_MPa": 25.025,
+      "S_ut_MPa": 71.5,
+      "SF_fatigue": 73.54499992110871,
+      "ref": "Fernandez-Vicente et al. (2016). Rapid Prototyping J 22(4)",
+      "note": "b estimado. Requiere curva S-N experimental FDM."
+    }
+  },
+  "shape_memory": {
+    "TPU_85A": {
+      "recovery": 0.9861343713521745,
+      "shape_memory": 0.013865628647825479,
+      "energy_max_mJ": 6541.767887186819,
+      "model": "neo_hookean",
+      "C1": 0.7,
+      "D1": 0.04,
+      "ref": "Treloar (1975). Physics of Rubber Elasticity. Oxford."
+    },
+    "TPU_75D": {
+      "recovery": 0.9865433876839665,
+      "shape_memory": 0.013456612316033456,
+      "energy_max_mJ": 46734.971988431695,
+      "model": "neo_hookean",
+      "C1": 5.0,
+      "D1": 0.005,
+      "ref": "Treloar (1975). Physics of Rubber Elasticity. Oxford."
+    },
+    "ABS": {
+      "recovery": 0.93,
+      "shape_memory": 0.07,
+      "energy_max_mJ": 0.0,
+      "model": "linear_elastic"
+    },
+    "PLA": {
+      "recovery": 0.93,
+      "shape_memory": 0.07,
+      "energy_max_mJ": 0.0,
+      "model": "linear_elastic"
+    }
+  },
+  "thermal": {
+    "D\u00eda ecuador (+20\u00b0C)": {
+      "T_op": 20.0,
+      "delta_T": 0.0,
+      "sigma_th_max_MPa": 0.0,
+      "sigma_th_real_MPa": 0.0,
+      "sigma_mismatch_MPa": 0.0,
+      "SF_real_restriction": 20.057727251211467,
+      "SF_max_restriction": 20.057727251211467,
+      "safe_real": 1,
+      "safe_max": 1,
+      "note": "Factor restricci\u00f3n 0.15 es estimaci\u00f3n. Rango real: 0.05-0.40 seg\u00fan geometr\u00eda de contacto."
+    },
+    "Noche promedio (\u221260\u00b0C)": {
+      "T_op": -60.0,
+      "delta_T": 80.0,
+      "sigma_th_max_MPa": 13.618312499999998,
+      "sigma_th_real_MPa": 2.0427468749999997,
+      "sigma_mismatch_MPa": 6.272,
+      "SF_real_restriction": 1.1586093965326838,
+      "SF_max_restriction": 0.7308845520098948,
+      "safe_real": 1,
+      "safe_max": 0,
+      "note": "Factor restricci\u00f3n 0.15 es estimaci\u00f3n. Rango real: 0.05-0.40 seg\u00fan geometr\u00eda de contacto."
+    },
+    "Noche m\u00ednima (\u221280\u00b0C)": {
+      "T_op": -80.0,
+      "delta_T": 100.0,
+      "sigma_th_max_MPa": 17.022890625,
+      "sigma_th_real_MPa": 2.55343359375,
+      "sigma_mismatch_MPa": 7.840000000000001,
+      "SF_real_restriction": 0.9424415025066021,
+      "SF_max_restriction": 0.5908591694880408,
+      "safe_real": 0,
+      "safe_max": 0,
+      "note": "Factor restricci\u00f3n 0.15 es estimaci\u00f3n. Rango real: 0.05-0.40 seg\u00fan geometr\u00eda de contacto."
+    },
+    "Polo invierno (\u2212125\u00b0C)": {
+      "T_op": -125.0,
+      "delta_T": 145.0,
+      "sigma_th_max_MPa": 24.683191406249996,
+      "sigma_th_real_MPa": 3.7024787109374993,
+      "sigma_mismatch_MPa": 11.368000000000002,
+      "SF_real_restriction": 0.6637872977400356,
+      "SF_max_restriction": 0.41288138220252596,
+      "safe_real": 0,
+      "safe_max": 0,
+      "note": "Factor restricci\u00f3n 0.15 es estimaci\u00f3n. Rango real: 0.05-0.40 seg\u00fan geometr\u00eda de contacto."
+    },
+    "fatiga_termica": {
+      "dT_operacional": 80.0,
+      "sigma_th_MPa": 2.0427468749999997,
+      "N_f_thermal": 1000000000.0,
+      "cycles_2yr": 5840,
+      "safe_2yr": 1
+    }
+  },
+  "uv_radiation": {
+    "TPU_85A": {
+      "0.5yr": {
+        "E_MPa": 24.17837743751408,
+        "E_pct_change": -3.2864902499436854,
+        "sigma_y_MPa": 14.653192668395944,
+        "sigma_vm_MPa": 0.7232637217974054,
+        "SF": 20.25981979571827,
+        "viable": 1
+      },
+      "1yr": {
+        "E_MPa": 23.342666354843747,
+        "E_pct_change": -6.629334580625013,
+        "sigma_y_MPa": 14.29679127502126,
+        "sigma_vm_MPa": 0.6982645460023554,
+        "SF": 20.474748942749606,
+        "viable": 1
+      },
+      "2yr": {
+        "E_MPa": 21.756903321115175,
+        "E_pct_change": -12.972386715539297,
+        "sigma_y_MPa": 13.609783302028148,
+        "sigma_vm_MPa": 0.6508285724087033,
+        "SF": 20.91147174387046,
+        "viable": 1
+      },
+      "3yr": {
+        "E_MPa": 20.27886767212122,
+        "E_pct_change": -18.88452931151512,
+        "sigma_y_MPa": 12.95578832795744,
+        "sigma_vm_MPa": 0.6066151189954903,
+        "SF": 21.3575097656835,
+        "viable": 1
+      },
+      "5yr": {
+        "E_MPa": 17.617202242967835,
+        "E_pct_change": -29.531191028128656,
+        "sigma_y_MPa": 11.740568073628022,
+        "sigma_vm_MPa": 0.5269949687416486,
+        "SF": 22.278330477541353,
+        "viable": 1
+      }
+    },
+    "TPU_75D": {
+      "0.5yr": {
+        "E_MPa": 192.50582476204073,
+        "E_pct_change": -3.7470876189796387,
+        "sigma_y_MPa": 38.94482051849889,
+        "sigma_vm_MPa": 0.7198191837153941,
+        "SF": 54.10361574066786,
+        "viable": 1
+      },
+      "1yr": {
+        "E_MPa": 184.92038974316853,
+        "E_pct_change": -7.539805128415733,
+        "sigma_y_MPa": 37.8641624236822,
+        "sigma_vm_MPa": 0.6914556697793347,
+        "SF": 54.76007223393779,
+        "viable": 1
+      },
+      "2yr": {
+        "E_MPa": 170.63442400859617,
+        "E_pct_change": -14.682787995701919,
+        "sigma_y_MPa": 35.79197388873226,
+        "sigma_vm_MPa": 0.6380374825304174,
+        "SF": 56.09697685280729,
+        "viable": 1
+      },
+      "3yr": {
+        "E_MPa": 157.45211600075058,
+        "E_pct_change": -21.27394199962471,
+        "sigma_y_MPa": 33.83318982517483,
+        "sigma_vm_MPa": 0.5887461003012217,
+        "SF": 57.46652047098854,
+        "viable": 1
+      },
+      "5yr": {
+        "E_MPa": 134.06400920712787,
+        "E_pct_change": -32.967995396436066,
+        "sigma_y_MPa": 30.231349658229018,
+        "sigma_vm_MPa": 0.5012931208308903,
+        "SF": 60.30673153487672,
+        "viable": 1
+      }
+    },
+    "ABS": {
+      "0.5yr": {
+        "E_MPa": 1952.5000467901489,
+        "E_pct_change": -11.249997873175055,
+        "sigma_y_MPa": 36.794071827201456,
+        "sigma_vm_MPa": 0.6637093102469863,
+        "SF": 55.43702831817934,
+        "viable": 1
+      },
+      "1yr": {
+        "E_MPa": 1721.9932497506236,
+        "E_pct_change": -21.727579556789834,
+        "sigma_y_MPa": 33.696603369417325,
+        "sigma_vm_MPa": 0.585353610577808,
+        "SF": 57.56623476902294,
+        "viable": 1
+      },
+      "2yr": {
+        "E_MPa": 1339.4059631447137,
+        "E_pct_change": -39.11791076614938,
+        "sigma_y_MPa": 28.261985838145844,
+        "sigma_vm_MPa": 0.4553015040388492,
+        "SF": 62.073122068435666,
+        "viable": 1
+      },
+      "3yr": {
+        "E_MPa": 1041.8207704167382,
+        "E_pct_change": -52.64451043560281,
+        "sigma_y_MPa": 23.70386815427468,
+        "sigma_vm_MPa": 0.3541439837970947,
+        "SF": 66.9328556710869,
+        "viable": 1
+      },
+      "5yr": {
+        "E_MPa": 630.3105530924182,
+        "E_pct_change": -71.34952031398099,
+        "sigma_y_MPa": 16.674480787140336,
+        "sigma_vm_MPa": 0.21426016512629978,
+        "SF": 77.82352252604325,
+        "viable": 1
+      }
+    },
+    "PLA": {
+      "0.5yr": {
+        "E_MPa": 3032.9838019637637,
+        "E_pct_change": -13.343319943892462,
+        "sigma_y_MPa": 49.753555528033495,
+        "sigma_vm_MPa": 0.6480545799440479,
+        "SF": 76.77371176410658,
+        "viable": 1
+      },
+      "1yr": {
+        "E_MPa": 2608.5463685051004,
+        "E_pct_change": -25.47010375699713,
+        "sigma_y_MPa": 44.77071715431276,
+        "sigma_vm_MPa": 0.5573654630175111,
+        "SF": 80.32560344146435,
+        "viable": 1
+      },
+      "2yr": {
+        "E_MPa": 1929.5476198085885,
+        "E_pct_change": -44.8700680054689,
+        "sigma_y_MPa": 36.25216176351561,
+        "sigma_vm_MPa": 0.4122844874501021,
+        "SF": 87.92996793968177,
+        "viable": 1
+      },
+      "3yr": {
+        "E_MPa": 1427.2907171830896,
+        "E_pct_change": -59.2202652233403,
+        "sigma_y_MPa": 29.35443781251792,
+        "sigma_vm_MPa": 0.3049677632908034,
+        "SF": 96.25423190885543,
+        "viable": 1
+      },
+      "5yr": {
+        "E_MPa": 780.9555605195044,
+        "E_pct_change": -77.68698398515703,
+        "sigma_y_MPa": 19.246576201113545,
+        "sigma_vm_MPa": 0.16686598438137076,
+        "SF": 115.3415195581483,
+        "viable": 1
+      }
+    }
+  },
+  "convergence": {
+    "mesh_study": [
+      {
+        "h": 4.0,
+        "n_nodes": 4759,
+        "n_elements": 20559,
+        "sigma_vm": 4.600281081340948,
+        "Kt": 6.71494256521484,
+        "SF": 3.2606703231333007
+      },
+      {
+        "h": 2.5,
+        "n_nodes": 15151,
+        "n_elements": 72493,
+        "sigma_vm": 2.1419911541918633,
+        "Kt": 3.1266236391372777,
+        "SF": 7.002830040005112
+      },
+      {
+        "h": 1.5,
+        "n_nodes": 59486,
+        "n_elements": 309174,
+        "sigma_vm": 0.7478414584131916,
+        "Kt": 1.0916099152070273,
+        "SF": 20.057727251211467
+      }
+    ],
+    "richardson": {
+      "p_order": 1.1103226578840162,
+      "sigma_rich": -1.078659708389516,
+      "GCI_pct": 305.29551856456845,
+      "h_finest": 1.5,
+      "r_ratio": 1.6666666666666667,
+      "converged": 0,
+      "ref": "Roache (1998). Verification & Validation in CFD. Hermosa."
+    }
+  },
+  "figures": [
+    "fig01_stress_displacement_fields.png",
+    "fig02_mesh_convergence.png",
+    "fig03_stress_profile.png",
+    "fig04_multimat_comparison.png",
+    "fig05_fatigue_analysis.png",
+    "fig06_shape_memory.png",
+    "fig07_thermal_uv.png",
+    "fig08_stiffness_buckling.png",
+    "fig09_dashboard.png",
+    "fig10_results_table.png"
+  ]
+}

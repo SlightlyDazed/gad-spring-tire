@@ -1,0 +1,1361 @@
+{
+  "version": "6.1",
+  "timestamp": "20260314_161639",
+  "n_solutions": 7,
+  "pop_size": 100,
+  "n_generations": 200,
+  "n_obj": 10,
+  "n_fea2d_evals": 19916,
+  "t_nsga_s": 898.2688176631927,
+  "fem3d_active": true,
+  "surrogate": {
+    "n_refreshes": 13,
+    "final_k_corr": 4.528594688215801,
+    "final_delta_corr": 0.24092459928531978,
+    "final_sigma_corr": 0.43710360646857893,
+    "final_Kt": 1.3034313752721765,
+    "final_confidence": 0.0,
+    "refresh_log": [
+      {
+        "gen": 15,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 5.846354928002602,
+          "deflection_correction": 0.8835622408577499,
+          "sigma_correction": 0.32092337265349824,
+          "Kt_3d": 1.0,
+          "model_confidence": 0.2857860879625885
+        },
+        "t_total_s": 2.306450128555298
+      },
+      {
+        "gen": 30,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 13.059974848039209,
+          "deflection_correction": 0.17429756135010047,
+          "sigma_correction": 0.338323244006357,
+          "Kt_3d": 1.0,
+          "model_confidence": 0.01380020995751483
+        },
+        "t_total_s": 2.251741886138916
+      },
+      {
+        "gen": 45,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 18.781748650250346,
+          "deflection_correction": 0.13547698530389995,
+          "sigma_correction": 0.40856838065245765,
+          "Kt_3d": 1.3721282371988317,
+          "model_confidence": 0.0
+        },
+        "t_total_s": 2.3932323455810547
+      },
+      {
+        "gen": 60,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 14.931248272755221,
+          "deflection_correction": 0.27728572197713286,
+          "sigma_correction": 0.4277471345012234,
+          "Kt_3d": 1.3762428625593675,
+          "model_confidence": 0.16880563909072263
+        },
+        "t_total_s": 2.3428332805633545
+      },
+      {
+        "gen": 75,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 26.13553087836192,
+          "deflection_correction": 0.2606735120941073,
+          "sigma_correction": 0.38214946524488413,
+          "Kt_3d": 1.4791261766045836,
+          "model_confidence": 0.14211706179146494
+        },
+        "t_total_s": 3.6914706230163574
+      },
+      {
+        "gen": 90,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 27.748826264075,
+          "deflection_correction": 0.2248616637529337,
+          "sigma_correction": 0.38489957197170815,
+          "Kt_3d": 1.340898314286468,
+          "model_confidence": 0.10216529218595709
+        },
+        "t_total_s": 3.3568758964538574
+      },
+      {
+        "gen": 105,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 22.88053880149507,
+          "deflection_correction": 0.07154481405806165,
+          "sigma_correction": 0.4307239215779176,
+          "Kt_3d": 1.259751248200891,
+          "model_confidence": 0.0
+        },
+        "t_total_s": 1.2887821197509766
+      },
+      {
+        "gen": 120,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 26.781320760387313,
+          "deflection_correction": 0.20314798841446025,
+          "sigma_correction": 0.40154018990306917,
+          "Kt_3d": 1.5068998774971325,
+          "model_confidence": 0.09998305056987136
+        },
+        "t_total_s": 3.191718816757202
+      },
+      {
+        "gen": 135,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 24.65494331298142,
+          "deflection_correction": 0.2158418438505918,
+          "sigma_correction": 0.3648684082506133,
+          "Kt_3d": 1.4951535567793104,
+          "model_confidence": 0.12670227627359357
+        },
+        "t_total_s": 2.4351282119750977
+      },
+      {
+        "gen": 150,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 32.251141131283646,
+          "deflection_correction": 0.041713936363791115,
+          "sigma_correction": 0.34795469629533815,
+          "Kt_3d": 1.1770255519025945,
+          "model_confidence": 0.0
+        },
+        "t_total_s": 1.2974958419799805
+      },
+      {
+        "gen": 165,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 51.86716709795377,
+          "deflection_correction": 0.07825701884303816,
+          "sigma_correction": 0.43500028939915625,
+          "Kt_3d": 1.4669690472775738,
+          "model_confidence": 0.0
+        },
+        "t_total_s": 2.115386486053467
+      },
+      {
+        "gen": 180,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 47.433306593270785,
+          "deflection_correction": 0.07781284730636781,
+          "sigma_correction": 0.3143706128635172,
+          "Kt_3d": 1.3852643300673884,
+          "model_confidence": 0.0
+        },
+        "t_total_s": 2.222719430923462
+      },
+      {
+        "gen": 195,
+        "n_evaluated": 5,
+        "avg_factors": {
+          "k_correction": 49.39654070686586,
+          "deflection_correction": 0.03554771263197119,
+          "sigma_correction": 0.2862502903804204,
+          "Kt_3d": 1.267699443188155,
+          "model_confidence": 0.0
+        },
+        "t_total_s": 1.4355676174163818
+      }
+    ],
+    "avg_gen_time_s": 4.467647525072098
+  },
+  "genes": [
+    "d_ext_ratio",
+    "d_rim_ratio",
+    "width_ratio",
+    "n_radios_ratio",
+    "wall_thickness_ratio",
+    "angle_cross_ratio",
+    "material_sector_0",
+    "material_sector_1",
+    "material_sector_2",
+    "material_sector_3",
+    "material_sector_4",
+    "material_sector_5",
+    "material_sector_6",
+    "material_sector_7",
+    "n_layers_ratio",
+    "spoke_thickness_ratio",
+    "hub_angle_cross_ratio",
+    "tread_rim_factor_ratio"
+  ],
+  "soluciones": [
+    {
+      "id": 0,
+      "genome": [
+        0.0005757119943737843,
+        0.9927102608190588,
+        0.05734233116576749,
+        0.48488539379232404,
+        0.7200648306411744,
+        0.9962099819598595,
+        0.9988662028907542,
+        0.9596020299914123,
+        0.9735517424859184,
+        0.841981328560116,
+        0.8844858390278494,
+        0.9922622234316021,
+        0.28638660734496,
+        0.9432944870569525,
+        0.07566966032974021,
+        0.9525524018403898,
+        0.5831899801374063,
+        0.8569033408393347
+      ],
+      "params": {
+        "d_ext": 300.11514239887475,
+        "d_rim": 248.90653912285882,
+        "width": 61.4684662331535,
+        "n_radios": 17,
+        "wall_thickness": 7.7605186451293955,
+        "angle_cross": 79.81049909799297,
+        "tread_pattern": "smooth",
+        "n_layers": 2,
+        "spoke_thickness": 11.525524018403898,
+        "hub_angle_cross": 34.99139880824438,
+        "tread_rim_factor": 3.5707100225180044,
+        "material_sectors": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          5,
+          1,
+          5
+        ],
+        "material_names": [
+          "TPU_85A",
+          "ABS",
+          "PLA"
+        ],
+        "n_unique_materials": 3
+      },
+      "fea_results": {
+        "stiffness_kN_m": 3514.313886203372,
+        "lateral_stiffness_kN_m": 7820.916779784452,
+        "torsional_stiffness_Nm_rad": 110466.66978375065,
+        "max_deflection_mm": 0.15522942684022972,
+        "max_load_N": 182845.98702817742,
+        "mass_kg": 1.7329103795213046,
+        "safety_factor": 20.7765014702932,
+        "safety_factor_strength": 2.9453460721507754,
+        "safety_factor_buckling": 562.5281641819137,
+        "sigma_vm_max_MPa": 2.2260725688648537,
+        "sigma_yield_MPa": 46.25,
+        "plastic_strain_percent": 0.0,
+        "buckling": {
+          "P_euler_N": 31084293.41873283,
+          "P_johnson_N": 16544.9460053504,
+          "P_critical_N": 16544.9460053504,
+          "sigma_cr_MPa": 86881.95438964182,
+          "slenderness_ratio": 0.5579687668993409,
+          "buckling_modes_N": [
+            31084293.41873283,
+            124337173.67493132,
+            279758640.76859546
+          ],
+          "risk": "LOW"
+        },
+        "fatigue": {
+          "N_cycles": 23312060242.74097,
+          "life_km": 21979531.843135152,
+          "goodman_ratio": 0.4794302188933491,
+          "S_e_MPa": 6.824999999999999,
+          "S_ut_MPa": 19.5,
+          "sigma_amp_MPa": 2.2917510657995304,
+          "fatigue_risk": "LOW"
+        },
+        "life_cycles": 13721586101.14891,
+        "life_km": 12937253.743689818,
+        "shape_memory": {
+          "shape_memory_ratio": 0.031000000000000028,
+          "energy_stored_mJ": 1467.0539361362096,
+          "recovery_ratio": 0.969,
+          "max_force_N": 461.2010123130654,
+          "sigma_vm_at_30pct_MPa": 1.2890769230769235,
+          "model": "neo_hookean",
+          "C1": 0.7,
+          "D1": 0.04,
+          "lambda_max": 1.3
+        },
+        "shape_memory_ratio": 0.031000000000000028,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 1467.0539361362096,
+        "adhesion_risk": 0.7,
+        "print_complexity": 0.5,
+        "n_unique_materials": 3,
+        "materials": [
+          "TPU_85A",
+          "ABS",
+          "PLA"
+        ],
+        "structural_efficiency": 447.8174294876328,
+        "E_avg_MPa": 2740.625,
+        "volume_cm3": 1463.9158433126122,
+        "n_spokes": 34,
+        "fea_type": "scikit_fem_robust",
+        "fem_n_dofs": 434,
+        "params": {
+          "d_ext": 300.11514239887475,
+          "d_rim": 248.90653912285882,
+          "width": 61.4684662331535,
+          "n_radios": 17,
+          "wall_thickness": 7.7605186451293955,
+          "angle_cross": 79.81049909799297
+        },
+        "surrogate_corrected": true,
+        "model_confidence": 0.0
+      },
+      "objectives": {
+        "stiffness_kN_m": 3514.313886203372,
+        "lateral_stiffness_kN_m": 7820.916779784452,
+        "torsional_stiffness_Nm_rad": 110466.66978375065,
+        "safety_factor": 20.7765014702932,
+        "life_cycles": 13721586101.14891,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 1467.0539361362096,
+        "mass_kg": 1.7329103795213046,
+        "max_deflection_mm": 0.15522942684022972,
+        "print_complexity": 0.5,
+        "adhesion_risk": 0.7,
+        "goodman_ratio": 0,
+        "structural_efficiency": 447.8174294876328,
+        "plastic_strain_percent": 0.0,
+        "shape_memory_ratio": 0.031000000000000028
+      },
+      "fem3d_validation": {
+        "k_vertical_kNm": 46887.87178186876,
+        "max_disp_mm": 0.010663738425281798,
+        "sigma_vm_MPa": 2.5868823807889405,
+        "SF_strength": 21.26111353513732,
+        "plastic_strain_pct": 0.0,
+        "Kt_rim": 1.7046434152900323,
+        "Kt_tread": 1.0,
+        "n_nodes": 171,
+        "n_elements": 534,
+        "correction_factors": {
+          "k_correction": 13.341970381741643,
+          "deflection_correction": 0.06869662951379366,
+          "sigma_correction": 1.162083580279719,
+          "Kt_3d": 1.7046434152900323,
+          "model_confidence": 0.0
+        },
+        "fem3d_time_s": 0.18704938888549805,
+        "fea_type": "fem3d_gmsh_skfem"
+      }
+    },
+    {
+      "id": 1,
+      "genome": [
+        0.04926353425007364,
+        0.21363041885828515,
+        0.002932226630564933,
+        0.8561219166617344,
+        0.6698748148074132,
+        0.9931135015543745,
+        0.9224489427381797,
+        0.8575480503674835,
+        0.9982224079919023,
+        0.494309998734535,
+        0.9461940673728805,
+        0.9985720548940838,
+        0.2492718482147031,
+        0.6634116841241698,
+        0.0403542457327184,
+        0.9965687984627342,
+        0.6461253249708673,
+        0.4306130311049404
+      ],
+      "params": {
+        "d_ext": 309.8527068500147,
+        "d_rim": 132.04456282874276,
+        "width": 50.58644532611299,
+        "n_radios": 25,
+        "wall_thickness": 7.358998518459305,
+        "angle_cross": 79.65567507771873,
+        "tread_pattern": "smooth",
+        "n_layers": 2,
+        "spoke_thickness": 11.965687984627342,
+        "hub_angle_cross": 38.767519498252035,
+        "tread_rim_factor": 2.291839093314821,
+        "material_sectors": [
+          5,
+          4,
+          5,
+          2,
+          5,
+          5,
+          1,
+          3
+        ],
+        "material_names": [
+          "TPU_85A",
+          "TPU_75D",
+          "Nylon_PA12",
+          "ABS",
+          "PLA"
+        ],
+        "n_unique_materials": 5
+      },
+      "fea_results": {
+        "stiffness_kN_m": 3600.516328680447,
+        "lateral_stiffness_kN_m": 7890.242242784042,
+        "torsional_stiffness_Nm_rad": 9597.187714533642,
+        "max_deflection_mm": 0.1515129721663946,
+        "max_load_N": 257562.27944231537,
+        "mass_kg": 2.3981426362201943,
+        "safety_factor": 38.85083899108315,
+        "safety_factor_strength": 5.660613945777511,
+        "safety_factor_buckling": 770.6009738492596,
+        "sigma_vm_max_MPa": 1.1582761445725323,
+        "sigma_yield_MPa": 45.0,
+        "plastic_strain_percent": 0.0,
+        "buckling": {
+          "P_euler_N": 143402.41290392473,
+          "P_johnson_N": 15412.019476985191,
+          "P_critical_N": 15412.019476985191,
+          "sigma_cr_MPa": 407.1365366972553,
+          "slenderness_ratio": 7.4313652736879465,
+          "buckling_modes_N": [
+            143402.41290392473,
+            573609.6516156989,
+            1290621.7161353228
+          ],
+          "risk": "LOW"
+        },
+        "fatigue": {
+          "N_cycles": 1000000000000.0,
+          "life_km": 973430987.534918,
+          "goodman_ratio": 0.24945843783274566,
+          "S_e_MPa": 6.824999999999999,
+          "S_ut_MPa": 19.5,
+          "sigma_amp_MPa": 1.1924501590565293,
+          "fatigue_risk": "LOW"
+        },
+        "life_cycles": 588604608870.7072,
+        "life_km": 572965965.6806165,
+        "shape_memory": {
+          "shape_memory_ratio": 0.031000000000000028,
+          "energy_stored_mJ": 5014.87095419824,
+          "recovery_ratio": 0.969,
+          "max_force_N": 454.04114965357763,
+          "sigma_vm_at_30pct_MPa": 1.2890769230769235,
+          "model": "neo_hookean",
+          "C1": 0.7,
+          "D1": 0.04,
+          "lambda_max": 1.3
+        },
+        "shape_memory_ratio": 0.031000000000000028,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 5014.87095419824,
+        "adhesion_risk": 0.8,
+        "print_complexity": 0.8333333333333334,
+        "n_unique_materials": 5,
+        "materials": [
+          "TPU_85A",
+          "TPU_75D",
+          "Nylon_PA12",
+          "ABS",
+          "PLA"
+        ],
+        "structural_efficiency": 331.5326626435478,
+        "E_avg_MPa": 2278.125,
+        "volume_cm3": 2045.3242099959018,
+        "n_spokes": 50,
+        "fea_type": "scikit_fem_robust",
+        "fem_n_dofs": 434,
+        "params": {
+          "d_ext": 309.8527068500147,
+          "d_rim": 132.04456282874276,
+          "width": 50.58644532611299,
+          "n_radios": 25,
+          "wall_thickness": 7.358998518459305,
+          "angle_cross": 79.65567507771873
+        },
+        "surrogate_corrected": true,
+        "model_confidence": 0.0
+      },
+      "objectives": {
+        "stiffness_kN_m": 3600.516328680447,
+        "lateral_stiffness_kN_m": 7890.242242784042,
+        "torsional_stiffness_Nm_rad": 9597.187714533642,
+        "safety_factor": 38.85083899108315,
+        "life_cycles": 588604608870.7072,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 5014.87095419824,
+        "mass_kg": 2.3981426362201943,
+        "max_deflection_mm": 0.1515129721663946,
+        "print_complexity": 0.8333333333333334,
+        "adhesion_risk": 0.8,
+        "goodman_ratio": 0,
+        "structural_efficiency": 331.5326626435478,
+        "plastic_strain_percent": 0.0,
+        "shape_memory_ratio": 0.031000000000000028
+      },
+      "fem3d_validation": {
+        "k_vertical_kNm": 38795.7039464628,
+        "max_disp_mm": 0.012888024939307423,
+        "sigma_vm_MPa": 0.5558281417582618,
+        "SF_strength": 98.95144896049604,
+        "plastic_strain_pct": 0.0,
+        "Kt_rim": 0.22493289927487928,
+        "Kt_tread": 1.0,
+        "n_nodes": 245,
+        "n_elements": 726,
+        "correction_factors": {
+          "k_correction": 10.775039023550558,
+          "deflection_correction": 0.08506218810857684,
+          "sigma_correction": 0.47987532538140376,
+          "Kt_3d": 1.0,
+          "model_confidence": 0.0
+        },
+        "fem3d_time_s": 0.2644491195678711,
+        "fea_type": "fem3d_gmsh_skfem"
+      }
+    },
+    {
+      "id": 2,
+      "genome": [
+        0.0030953881456894095,
+        0.17072751242205808,
+        0.05735533908266978,
+        0.4477435700405883,
+        0.6987218469821701,
+        0.9964859358416819,
+        0.993214533137246,
+        0.9839890170908926,
+        0.9184397777861063,
+        0.8426881600960726,
+        0.9227152042589316,
+        0.9516044254311565,
+        0.28944642220741645,
+        0.9429759052079204,
+        0.09477277749926796,
+        0.9998236614982053,
+        0.8129613782033568,
+        0.10729312300697436
+      ],
+      "params": {
+        "d_ext": 300.6190776291379,
+        "d_rim": 125.60912686330872,
+        "width": 61.47106781653396,
+        "n_radios": 16,
+        "wall_thickness": 7.589774775857361,
+        "angle_cross": 79.82429679208408,
+        "tread_pattern": "smooth",
+        "n_layers": 2,
+        "spoke_thickness": 11.998236614982053,
+        "hub_angle_cross": 48.77768269220141,
+        "tread_rim_factor": 1.3218793690209232,
+        "material_sectors": [
+          5,
+          5,
+          5,
+          4,
+          5,
+          5,
+          1,
+          5
+        ],
+        "material_names": [
+          "TPU_85A",
+          "ABS",
+          "PLA"
+        ],
+        "n_unique_materials": 3
+      },
+      "fea_results": {
+        "stiffness_kN_m": 3605.7431852353097,
+        "lateral_stiffness_kN_m": 8035.50109081403,
+        "torsional_stiffness_Nm_rad": 8957.42219665515,
+        "max_deflection_mm": 0.15129334017070575,
+        "max_load_N": 182309.9550575483,
+        "mass_kg": 2.2242511054603247,
+        "safety_factor": 21.47295384674539,
+        "safety_factor_strength": 2.925477060138937,
+        "safety_factor_buckling": 549.5645512861148,
+        "sigma_vm_max_MPa": 2.2411914235681274,
+        "sigma_yield_MPa": 48.125,
+        "plastic_strain_percent": 0.0,
+        "buckling": {
+          "P_euler_N": 215850.2284002987,
+          "P_johnson_N": 17173.89222769109,
+          "P_critical_N": 17173.89222769109,
+          "sigma_cr_MPa": 592.5789366809266,
+          "slenderness_ratio": 6.953598890692033,
+          "buckling_modes_N": [
+            215850.2284002987,
+            863400.9136011949,
+            1942652.0556026886
+          ],
+          "risk": "LOW"
+        },
+        "fatigue": {
+          "N_cycles": 22033511061.75605,
+          "life_km": 20808947.694738016,
+          "goodman_ratio": 0.4826863732169717,
+          "S_e_MPa": 6.824999999999999,
+          "S_ut_MPa": 19.5,
+          "sigma_amp_MPa": 2.3073159902608937,
+          "fatigue_risk": "LOW"
+        },
+        "life_cycles": 12969026160.553318,
+        "life_km": 12248242.518872272,
+        "shape_memory": {
+          "shape_memory_ratio": 0.031000000000000028,
+          "energy_stored_mJ": 5104.588963073974,
+          "recovery_ratio": 0.969,
+          "max_force_N": 469.55355826548765,
+          "sigma_vm_at_30pct_MPa": 1.2890769230769235,
+          "model": "neo_hookean",
+          "C1": 0.7,
+          "D1": 0.04,
+          "lambda_max": 1.3
+        },
+        "shape_memory_ratio": 0.031000000000000028,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 5104.588963073974,
+        "adhesion_risk": 0.7,
+        "print_complexity": 0.5,
+        "n_unique_materials": 3,
+        "materials": [
+          "TPU_85A",
+          "ABS",
+          "PLA"
+        ],
+        "structural_efficiency": 357.97073502900355,
+        "E_avg_MPa": 2903.125,
+        "volume_cm3": 1840.1250096879626,
+        "n_spokes": 32,
+        "fea_type": "scikit_fem_robust",
+        "fem_n_dofs": 434,
+        "params": {
+          "d_ext": 300.6190776291379,
+          "d_rim": 125.60912686330872,
+          "width": 61.47106781653396,
+          "n_radios": 16,
+          "wall_thickness": 7.589774775857361,
+          "angle_cross": 79.82429679208408
+        },
+        "surrogate_corrected": true,
+        "model_confidence": 0.0
+      },
+      "objectives": {
+        "stiffness_kN_m": 3605.7431852353097,
+        "lateral_stiffness_kN_m": 8035.50109081403,
+        "torsional_stiffness_Nm_rad": 8957.42219665515,
+        "safety_factor": 21.47295384674539,
+        "life_cycles": 12969026160.553318,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 5104.588963073974,
+        "mass_kg": 2.2242511054603247,
+        "max_deflection_mm": 0.15129334017070575,
+        "print_complexity": 0.5,
+        "adhesion_risk": 0.7,
+        "goodman_ratio": 0,
+        "structural_efficiency": 357.97073502900355,
+        "plastic_strain_percent": 0.0,
+        "shape_memory_ratio": 0.031000000000000028
+      },
+      "fem3d_validation": {
+        "k_vertical_kNm": 21805.608149068434,
+        "max_disp_mm": 0.02292988100042331,
+        "sigma_vm_MPa": 1.0459332572768,
+        "SF_strength": 52.58461724718308,
+        "plastic_strain_pct": 0.0,
+        "Kt_rim": 0.24023531114956787,
+        "Kt_tread": 1.0,
+        "n_nodes": 225,
+        "n_elements": 660,
+        "correction_factors": {
+          "k_correction": 6.047465675968658,
+          "deflection_correction": 0.15155909027159623,
+          "sigma_correction": 0.466686266187653,
+          "Kt_3d": 1.0,
+          "model_confidence": 0.0
+        },
+        "fem3d_time_s": 0.2547619342803955,
+        "fea_type": "fem3d_gmsh_skfem"
+      }
+    },
+    {
+      "id": 3,
+      "genome": [
+        0.0048838261635049075,
+        0.13200898912977305,
+        0.017861678324302684,
+        0.44418521215771006,
+        0.5891511655401716,
+        0.9998901527281501,
+        0.9998989645630233,
+        0.9125273872377504,
+        0.9584553538167119,
+        0.8518250916341639,
+        0.8331233669320869,
+        0.9379649364739506,
+        0.2920937014879095,
+        0.9288171799478318,
+        0.09580788363099108,
+        0.9997987141506478,
+        0.6427073954970177,
+        0.911184383416021
+      ],
+      "params": {
+        "d_ext": 300.976765232701,
+        "d_rim": 119.80134836946596,
+        "width": 53.57233566486054,
+        "n_radios": 16,
+        "wall_thickness": 6.713209324321372,
+        "angle_cross": 79.9945076364075,
+        "tread_pattern": "smooth",
+        "n_layers": 2,
+        "spoke_thickness": 11.997987141506478,
+        "hub_angle_cross": 38.56244372982106,
+        "tread_rim_factor": 3.733553150248063,
+        "material_sectors": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          5,
+          1,
+          5
+        ],
+        "material_names": [
+          "TPU_85A",
+          "ABS",
+          "PLA"
+        ],
+        "n_unique_materials": 3
+      },
+      "fea_results": {
+        "stiffness_kN_m": 3600.407461484802,
+        "lateral_stiffness_kN_m": 8162.994301663993,
+        "torsional_stiffness_Nm_rad": 5504.698076550826,
+        "max_deflection_mm": 0.15151755353463137,
+        "max_load_N": 154968.57836738828,
+        "mass_kg": 1.8401945472853136,
+        "safety_factor": 17.20751750953594,
+        "safety_factor_strength": 2.4393950146343935,
+        "safety_factor_buckling": 461.55782905092394,
+        "sigma_vm_max_MPa": 2.687778755672891,
+        "sigma_yield_MPa": 46.25,
+        "plastic_strain_percent": 0.0,
+        "buckling": {
+          "P_euler_N": 116335.52598635347,
+          "P_johnson_N": 14423.682157841373,
+          "P_critical_N": 14423.682157841373,
+          "sigma_cr_MPa": 361.0886064062375,
+          "slenderness_ratio": 8.655014257733578,
+          "buckling_modes_N": [
+            116335.52598635347,
+            465342.1039454139,
+            1047019.7338771812
+          ],
+          "risk": "LOW"
+        },
+        "fatigue": {
+          "N_cycles": 4846880724.386237,
+          "life_km": 4582950.593787705,
+          "goodman_ratio": 0.5788680814777963,
+          "S_e_MPa": 6.824999999999999,
+          "S_ut_MPa": 19.5,
+          "sigma_amp_MPa": 2.767079525663318,
+          "fatigue_risk": "LOW"
+        },
+        "life_cycles": 2852896333.0203304,
+        "life_km": 2697545.8417301867,
+        "shape_memory": {
+          "shape_memory_ratio": 0.031000000000000028,
+          "energy_stored_mJ": 4674.009321290262,
+          "recovery_ratio": 0.969,
+          "max_force_N": 415.3147987015343,
+          "sigma_vm_at_30pct_MPa": 1.2890769230769235,
+          "model": "neo_hookean",
+          "C1": 0.7,
+          "D1": 0.04,
+          "lambda_max": 1.3
+        },
+        "shape_memory_ratio": 0.031000000000000028,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 4674.009321290262,
+        "adhesion_risk": 0.7,
+        "print_complexity": 0.5,
+        "n_unique_materials": 3,
+        "materials": [
+          "TPU_85A",
+          "ABS",
+          "PLA"
+        ],
+        "structural_efficiency": 432.0405007213386,
+        "E_avg_MPa": 2740.625,
+        "volume_cm3": 1554.5466080551753,
+        "n_spokes": 32,
+        "fea_type": "scikit_fem_robust",
+        "fem_n_dofs": 434,
+        "params": {
+          "d_ext": 300.976765232701,
+          "d_rim": 119.80134836946596,
+          "width": 53.57233566486054,
+          "n_radios": 16,
+          "wall_thickness": 6.713209324321372,
+          "angle_cross": 79.9945076364075
+        },
+        "surrogate_corrected": true,
+        "model_confidence": 0.0
+      },
+      "objectives": {
+        "stiffness_kN_m": 3600.407461484802,
+        "lateral_stiffness_kN_m": 8162.994301663993,
+        "torsional_stiffness_Nm_rad": 5504.698076550826,
+        "safety_factor": 17.20751750953594,
+        "life_cycles": 2852896333.0203304,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 4674.009321290262,
+        "mass_kg": 1.8401945472853136,
+        "max_deflection_mm": 0.15151755353463137,
+        "print_complexity": 0.5,
+        "adhesion_risk": 0.7,
+        "goodman_ratio": 0,
+        "structural_efficiency": 432.0405007213386,
+        "plastic_strain_percent": 0.0,
+        "shape_memory_ratio": 0.031000000000000028
+      },
+      "fem3d_validation": {
+        "k_vertical_kNm": 13108.336438082912,
+        "max_disp_mm": 0.0381436654728649,
+        "sigma_vm_MPa": 1.390479990875573,
+        "SF_strength": 39.55468641110541,
+        "plastic_strain_pct": 0.0,
+        "Kt_rim": 0.19660985527044908,
+        "Kt_tread": 1.0,
+        "n_nodes": 266,
+        "n_elements": 796,
+        "correction_factors": {
+          "k_correction": 3.640792487602794,
+          "deflection_correction": 0.2517442011373729,
+          "sigma_correction": 0.5173342441005578,
+          "Kt_3d": 1.0,
+          "model_confidence": 0.0
+        },
+        "fem3d_time_s": 0.2820401191711426,
+        "fea_type": "fem3d_gmsh_skfem"
+      }
+    },
+    {
+      "id": 4,
+      "genome": [
+        0.009149690523946985,
+        0.9876646168164829,
+        0.11394067182489176,
+        0.48481922864318006,
+        0.7153490102280179,
+        0.9962785646609935,
+        0.9988634925351715,
+        0.9658561748620316,
+        0.9906718055238376,
+        0.37136823182668727,
+        0.7823816448984776,
+        0.8954726294120186,
+        0.23252421797145062,
+        0.992715349429544,
+        0.09464793285571507,
+        0.9998032661600348,
+        0.7698955176918312,
+        0.06685798453627823
+      ],
+      "params": {
+        "d_ext": 301.8299381047894,
+        "d_rim": 248.14969252247244,
+        "width": 72.78813436497835,
+        "n_radios": 17,
+        "wall_thickness": 7.722792081824143,
+        "angle_cross": 79.81392823304967,
+        "tread_pattern": "smooth",
+        "n_layers": 2,
+        "spoke_thickness": 11.998032661600348,
+        "hub_angle_cross": 46.19373106150987,
+        "tread_rim_factor": 1.2005739536088347,
+        "material_sectors": [
+          5,
+          5,
+          5,
+          2,
+          4,
+          4,
+          1,
+          5
+        ],
+        "material_names": [
+          "TPU_85A",
+          "TPU_75D",
+          "ABS",
+          "PLA"
+        ],
+        "n_unique_materials": 4
+      },
+      "fea_results": {
+        "stiffness_kN_m": 3621.087601651298,
+        "lateral_stiffness_kN_m": 8061.30689622763,
+        "torsional_stiffness_Nm_rad": 96581.00772401658,
+        "max_deflection_mm": 0.15065223223079108,
+        "max_load_N": 181737.69598599043,
+        "mass_kg": 2.0260797068487992,
+        "safety_factor": 20.29491840562619,
+        "safety_factor_strength": 2.998641812310338,
+        "safety_factor_buckling": 559.108034398866,
+        "sigma_vm_max_MPa": 2.1865079283934588,
+        "sigma_yield_MPa": 44.375,
+        "plastic_strain_percent": 0.0,
+        "buckling": {
+          "P_euler_N": 27089302.74572418,
+          "P_johnson_N": 16444.353952907823,
+          "P_critical_N": 16444.353952907823,
+          "sigma_cr_MPa": 73089.24117893318,
+          "slenderness_ratio": 0.560694496633322,
+          "buckling_modes_N": [
+            27089302.74572418,
+            108357210.98289672,
+            243803724.7115176
+          ],
+          "risk": "LOW"
+        },
+        "fatigue": {
+          "N_cycles": 27069662205.047993,
+          "life_km": 25668176.900888406,
+          "goodman_ratio": 0.47090916503960595,
+          "S_e_MPa": 6.824999999999999,
+          "S_ut_MPa": 19.5,
+          "sigma_amp_MPa": 2.2510191021445753,
+          "fatigue_risk": "LOW"
+        },
+        "life_cycles": 15933327934.464436,
+        "life_km": 15108407.225171538,
+        "shape_memory": {
+          "shape_memory_ratio": 0.031000000000000028,
+          "energy_stored_mJ": 1593.1277414564968,
+          "recovery_ratio": 0.969,
+          "max_force_N": 477.7747650473976,
+          "sigma_vm_at_30pct_MPa": 1.2890769230769235,
+          "model": "neo_hookean",
+          "C1": 0.7,
+          "D1": 0.04,
+          "lambda_max": 1.3
+        },
+        "shape_memory_ratio": 0.031000000000000028,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 1593.1277414564968,
+        "adhesion_risk": 0.7,
+        "print_complexity": 0.6666666666666666,
+        "n_unique_materials": 4,
+        "materials": [
+          "TPU_85A",
+          "TPU_75D",
+          "ABS",
+          "PLA"
+        ],
+        "structural_efficiency": 394.6563108755704,
+        "E_avg_MPa": 2328.125,
+        "volume_cm3": 1720.6621714214855,
+        "n_spokes": 34,
+        "fea_type": "scikit_fem_robust",
+        "fem_n_dofs": 434,
+        "params": {
+          "d_ext": 301.8299381047894,
+          "d_rim": 248.14969252247244,
+          "width": 72.78813436497835,
+          "n_radios": 17,
+          "wall_thickness": 7.722792081824143,
+          "angle_cross": 79.81392823304967
+        },
+        "surrogate_corrected": true,
+        "model_confidence": 0.0
+      },
+      "objectives": {
+        "stiffness_kN_m": 3621.087601651298,
+        "lateral_stiffness_kN_m": 8061.30689622763,
+        "torsional_stiffness_Nm_rad": 96581.00772401658,
+        "safety_factor": 20.29491840562619,
+        "life_cycles": 15933327934.464436,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 1593.1277414564968,
+        "mass_kg": 2.0260797068487992,
+        "max_deflection_mm": 0.15065223223079108,
+        "print_complexity": 0.6666666666666666,
+        "adhesion_risk": 0.7,
+        "goodman_ratio": 0,
+        "structural_efficiency": 394.6563108755704,
+        "plastic_strain_percent": 0.0,
+        "shape_memory_ratio": 0.031000000000000028
+      },
+      "fem3d_validation": {
+        "k_vertical_kNm": 46754.423699575185,
+        "max_disp_mm": 0.010694175233830185,
+        "sigma_vm_MPa": 2.5241898289188445,
+        "SF_strength": 21.789169487129058,
+        "plastic_strain_pct": 0.0,
+        "Kt_rim": 1.6609460198905874,
+        "Kt_tread": 1.0,
+        "n_nodes": 164,
+        "n_elements": 490,
+        "correction_factors": {
+          "k_correction": 12.91170743238968,
+          "deflection_correction": 0.07098583987422959,
+          "sigma_correction": 1.1544389097063545,
+          "Kt_3d": 1.6609460198905874,
+          "model_confidence": 0.0
+        },
+        "fem3d_time_s": 0.18672895431518555,
+        "fea_type": "fem3d_gmsh_skfem"
+      }
+    },
+    {
+      "id": 5,
+      "genome": [
+        0.001382710359306203,
+        0.9877590098307194,
+        0.11514799913631205,
+        0.4917307718111162,
+        0.6966479152601893,
+        0.9921769604204372,
+        0.9988630717711676,
+        0.9658841659569682,
+        0.9906718055238376,
+        0.8342048703051302,
+        0.7846330465199656,
+        0.9014087841391343,
+        0.23051292768369197,
+        0.9558319491904457,
+        0.09465576804539527,
+        0.9999706337819729,
+        0.7872496597080952,
+        0.06685798453627823
+      ],
+      "params": {
+        "d_ext": 300.27654207186123,
+        "d_rim": 248.16385147460792,
+        "width": 73.02959982726242,
+        "n_radios": 17,
+        "wall_thickness": 7.573183322081515,
+        "angle_cross": 79.60884802102186,
+        "tread_pattern": "smooth",
+        "n_layers": 2,
+        "spoke_thickness": 11.99970633781973,
+        "hub_angle_cross": 47.234979582485714,
+        "tread_rim_factor": 1.2005739536088347,
+        "material_sectors": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          5,
+          1,
+          5
+        ],
+        "material_names": [
+          "TPU_85A",
+          "ABS",
+          "PLA"
+        ],
+        "n_unique_materials": 3
+      },
+      "fea_results": {
+        "stiffness_kN_m": 3621.6520760008207,
+        "lateral_stiffness_kN_m": 7900.002951132313,
+        "torsional_stiffness_Nm_rad": 108672.38492772877,
+        "max_deflection_mm": 0.15062875142175478,
+        "max_load_N": 185773.2137488092,
+        "mass_kg": 1.997418498988987,
+        "safety_factor": 20.873816184282433,
+        "safety_factor_strength": 2.9591417302417433,
+        "safety_factor_buckling": 571.5300069138098,
+        "sigma_vm_max_MPa": 2.215694513724104,
+        "sigma_yield_MPa": 46.25,
+        "plastic_strain_percent": 0.0,
+        "buckling": {
+          "P_euler_N": 30075586.626799554,
+          "P_johnson_N": 16809.706085700287,
+          "P_critical_N": 16809.706085700287,
+          "sigma_cr_MPa": 82738.0017834098,
+          "slenderness_ratio": 0.5717710551514873,
+          "buckling_modes_N": [
+            30075586.626799554,
+            120302346.50719821,
+            270680279.641196
+          ],
+          "risk": "LOW"
+        },
+        "fatigue": {
+          "N_cycles": 24237767804.57813,
+          "life_km": 22864615.331793696,
+          "goodman_ratio": 0.47719509263672666,
+          "S_e_MPa": 6.824999999999999,
+          "S_ut_MPa": 19.5,
+          "sigma_amp_MPa": 2.281066814413302,
+          "fatigue_risk": "LOW"
+        },
+        "life_cycles": 14266461838.512726,
+        "life_km": 13458217.964349601,
+        "shape_memory": {
+          "shape_memory_ratio": 0.031000000000000028,
+          "energy_stored_mJ": 1516.8558397617437,
+          "recovery_ratio": 0.969,
+          "max_force_N": 468.5844936175646,
+          "sigma_vm_at_30pct_MPa": 1.2890769230769235,
+          "model": "neo_hookean",
+          "C1": 0.7,
+          "D1": 0.04,
+          "lambda_max": 1.3
+        },
+        "shape_memory_ratio": 0.031000000000000028,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 1516.8558397617437,
+        "adhesion_risk": 0.7,
+        "print_complexity": 0.5,
+        "n_unique_materials": 3,
+        "materials": [
+          "TPU_85A",
+          "ABS",
+          "PLA"
+        ],
+        "structural_efficiency": 400.38168753422843,
+        "E_avg_MPa": 2740.625,
+        "volume_cm3": 1687.3651522610241,
+        "n_spokes": 34,
+        "fea_type": "scikit_fem_robust",
+        "fem_n_dofs": 434,
+        "params": {
+          "d_ext": 300.27654207186123,
+          "d_rim": 248.16385147460792,
+          "width": 73.02959982726242,
+          "n_radios": 17,
+          "wall_thickness": 7.573183322081515,
+          "angle_cross": 79.60884802102186
+        },
+        "surrogate_corrected": true,
+        "model_confidence": 0.0
+      },
+      "objectives": {
+        "stiffness_kN_m": 3621.6520760008207,
+        "lateral_stiffness_kN_m": 7900.002951132313,
+        "torsional_stiffness_Nm_rad": 108672.38492772877,
+        "safety_factor": 20.873816184282433,
+        "life_cycles": 14266461838.512726,
+        "recovery_ratio": 0.969,
+        "energy_stored_mJ": 1516.8558397617437,
+        "mass_kg": 1.997418498988987,
+        "max_deflection_mm": 0.15062875142175478,
+        "print_complexity": 0.5,
+        "adhesion_risk": 0.7,
+        "goodman_ratio": 0,
+        "structural_efficiency": 400.38168753422843,
+        "plastic_strain_percent": 0.0,
+        "shape_memory_ratio": 0.031000000000000028
+      },
+      "fem3d_validation": {
+        "k_vertical_kNm": 44707.576181122095,
+        "max_disp_mm": 0.011183786792072313,
+        "sigma_vm_MPa": 2.4242935917289836,
+        "SF_strength": 22.68702115438688,
+        "plastic_strain_pct": 0.0,
+        "Kt_rim": 1.8210986501892525,
+        "Kt_tread": 1.0,
+        "n_nodes": 173,
+        "n_elements": 540,
+        "correction_factors": {
+          "k_correction": 12.344525438371226,
+          "deflection_correction": 0.07424735773556361,
+          "sigma_correction": 1.0941461364429113,
+          "Kt_3d": 1.8210986501892525,
+          "model_confidence": 0.0
+        },
+        "fem3d_time_s": 0.19993114471435547,
+        "fea_type": "fem3d_gmsh_skfem"
+      }
+    },
+    {
+      "id": 6,
+      "genome": [
+        0.0036228290996637123,
+        0.9833026118322373,
+        0.06668793523574235,
+        0.46849974848545817,
+        0.7870272702240044,
+        0.9952213970500665,
+        0.9598203322314154,
+        0.8739966373790291,
+        0.9869428083026333,
+        0.4940707926407175,
+        0.833616232294043,
+        0.9828102200212019,
+        0.9617299941694665,
+        0.9956960635876422,
+        0.04065101091440005,
+        0.9999700212359548,
+        0.6013495233463089,
+        0.05771308003966885
+      ],
+      "params": {
+        "d_ext": 300.72456581993276,
+        "d_rim": 247.4953917748356,
+        "width": 63.33758704714847,
+        "n_radios": 16,
+        "wall_thickness": 8.296218161792035,
+        "angle_cross": 79.76106985250333,
+        "tread_pattern": "smooth",
+        "n_layers": 2,
+        "spoke_thickness": 11.999700212359548,
+        "hub_angle_cross": 36.08097140077853,
+        "tread_rim_factor": 1.1731392401190066,
+        "material_sectors": [
+          5,
+          4,
+          5,
+          2,
+          4,
+          5,
+          5,
+          5
+        ],
+        "material_names": [
+          "TPU_75D",
+          "ABS",
+          "PLA"
+        ],
+        "n_unique_materials": 3
+      },
+      "fea_results": {
+        "stiffness_kN_m": 3621.6900962340637,
+        "lateral_stiffness_kN_m": 8020.132362696833,
+        "torsional_stiffness_Nm_rad": 132709.90001444094,
+        "max_deflection_mm": 0.15062717013232638,
+        "max_load_N": 204480.07674091725,
+        "mass_kg": 1.9197153632446595,
+        "safety_factor": 25.018726757534523,
+        "safety_factor_strength": 8.85936258833035,
+        "safety_factor_buckling": 629.0918683341071,
+        "sigma_vm_max_MPa": 1.9735216935102604,
+        "sigma_yield_MPa": 49.375,
+        "plastic_strain_percent": 0.0,
+        "buckling": {
+          "P_euler_N": 39853974.583136275,
+          "P_johnson_N": 19659.120885440847,
+          "P_critical_N": 19659.120885440847,
+          "sigma_cr_MPa": 100083.17814928398,
+          "slenderness_ratio": 0.5219398688024446,
+          "buckling_modes_N": [
+            39853974.583136275,
+            159415898.3325451,
+            358685771.24822646
+          ],
+          "risk": "LOW"
+        },
+        "fatigue": {
+          "N_cycles": 1000000000000.0,
+          "life_km": 944754086.7338811,
+          "goodman_ratio": 0.15938933506886033,
+          "S_e_MPa": 18.2,
+          "S_ut_MPa": 52.0,
+          "sigma_amp_MPa": 2.031748878154033,
+          "fatigue_risk": "LOW"
+        },
+        "life_cycles": 588604608870.7072,
+        "life_km": 556086609.7009982,
+        "shape_memory": {
+          "shape_memory_ratio": 0.06600000000000006,
+          "energy_stored_mJ": 12125.431114958232,
+          "recovery_ratio": 0.9339999999999999,
+          "max_force_N": 3666.581557319722,
+          "sigma_vm_at_30pct_MPa": 9.20769230769231,
+          "model": "neo_hookean",
+          "C1": 5.0,
+          "D1": 0.005,
+          "lambda_max": 1.3
+        },
+        "shape_memory_ratio": 0.06600000000000006,
+        "recovery_ratio": 0.9339999999999999,
+        "energy_stored_mJ": 12125.431114958232,
+        "adhesion_risk": 0.7,
+        "print_complexity": 0.5,
+        "n_unique_materials": 3,
+        "materials": [
+          "TPU_75D",
+          "ABS",
+          "PLA"
+        ],
+        "structural_efficiency": 416.59206372010084,
+        "E_avg_MPa": 2762.5,
+        "volume_cm3": 1608.138524184008,
+        "n_spokes": 32,
+        "fea_type": "scikit_fem_robust",
+        "fem_n_dofs": 434,
+        "params": {
+          "d_ext": 300.72456581993276,
+          "d_rim": 247.4953917748356,
+          "width": 63.33758704714847,
+          "n_radios": 16,
+          "wall_thickness": 8.296218161792035,
+          "angle_cross": 79.76106985250333
+        },
+        "surrogate_corrected": true,
+        "model_confidence": 0.0
+      },
+      "objectives": {
+        "stiffness_kN_m": 3621.6900962340637,
+        "lateral_stiffness_kN_m": 8020.132362696833,
+        "torsional_stiffness_Nm_rad": 132709.90001444094,
+        "safety_factor": 25.018726757534523,
+        "life_cycles": 588604608870.7072,
+        "recovery_ratio": 0.9339999999999999,
+        "energy_stored_mJ": 12125.431114958232,
+        "mass_kg": 1.9197153632446595,
+        "max_deflection_mm": 0.15062717013232638,
+        "print_complexity": 0.5,
+        "adhesion_risk": 0.7,
+        "goodman_ratio": 0,
+        "structural_efficiency": 416.59206372010084,
+        "plastic_strain_percent": 0.0,
+        "shape_memory_ratio": 0.06600000000000006
+      },
+      "fem3d_validation": {
+        "k_vertical_kNm": 44784.64764132518,
+        "max_disp_mm": 0.01116454022379364,
+        "sigma_vm_MPa": 2.3626004345948415,
+        "SF_strength": 23.279433625191835,
+        "plastic_strain_pct": 0.0,
+        "Kt_rim": 1.3876463291953576,
+        "Kt_tread": 1.0,
+        "n_nodes": 161,
+        "n_elements": 477,
+        "correction_factors": {
+          "k_correction": 12.365676369685394,
+          "deflection_correction": 0.07412036098125964,
+          "sigma_correction": 1.197149462488317,
+          "Kt_3d": 1.3876463291953576,
+          "model_confidence": 0.0
+        },
+        "fem3d_time_s": 0.18872356414794922,
+        "fea_type": "fem3d_gmsh_skfem"
+      }
+    }
+  ]
+}

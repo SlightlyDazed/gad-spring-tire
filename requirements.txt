@@ -1,0 +1,20 @@
+# Versions used during development (Python 3.12)
+numpy>=2.0
+scipy>=1.17
+matplotlib>=3.10
+scikit-learn>=1.8
+pymoo==0.6.1.6
+scikit-fem==12.0.1
+meshio>=5.3
+gmsh>=4.15
+pyamg>=5.3
+trimesh>=4.11
+tqdm
+psutil
+
+# Install for your hardware (CUDA / ROCm / CPU) following the official instructions:
+torch>=2.4
+torch-geometric>=2.6
+
+# Optional: FEniCS/DOLFINx solver for fem3d_springtire_id79.py (--solver fenics)
+# fenics-dolfinx, mpi4py

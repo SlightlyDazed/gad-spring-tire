@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated data (large; regenerate with the pipeline)
+results/data/
+results/stl/
+fem3d_pub_results/
+*.msh
+*.vtu
+*.xdmf
+*.h5
+
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz

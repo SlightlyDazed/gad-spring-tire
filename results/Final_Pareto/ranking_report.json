@@ -1,0 +1,292 @@
+{
+  "pareto_file": "/home/alexander/Documentos/Kimi_Agent_Exportador STL fallando/results/pareto/pareto_spring_tire_20260314_223722.json",
+  "output_dir": "/home/alexander/Documentos/Kimi_Agent_Exportador STL fallando/results/Final_Pareto",
+  "top_n": 20,
+  "n_exported_ok": 20,
+  "n_failed": 0,
+  "weights": {
+    "safety_factor": 0.2,
+    "life_cycles": 0.2,
+    "stiffness_kN_m": 0.15,
+    "structural_efficiency": 0.15,
+    "energy_stored_mJ": 0.1,
+    "mass_kg": 0.1,
+    "print_complexity": 0.05,
+    "adhesion_risk": 0.05
+  },
+  "penalty_plastic_strain": -0.5,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": 33,
+      "score": 0.7772673714984378,
+      "safety_factor": 34.991617623111964,
+      "life_km": 950256683.239859,
+      "stiffness_kN_m": 798.5534137045055,
+      "mass_kg": 1.9318312489133307,
+      "materials": [
+        "TPU_75D",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": 65,
+      "score": 0.7007732597663257,
+      "safety_factor": 23.38601331024762,
+      "life_km": 963823895.4817904,
+      "stiffness_kN_m": 798.9190891215665,
+      "mass_kg": 2.297311807760289,
+      "materials": [
+        "TPU_75D",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": 63,
+      "score": 0.6990903651392661,
+      "safety_factor": 22.33590509636141,
+      "life_km": 960775785.9091617,
+      "stiffness_kN_m": 799.0438974711818,
+      "mass_kg": 2.869762918728715,
+      "materials": [
+        "TPU_75D",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": 12,
+      "score": 0.6796335600495713,
+      "safety_factor": 22.857474369586917,
+      "life_km": 948172478.7623737,
+      "stiffness_kN_m": 797.781018909753,
+      "mass_kg": 1.841499198128082,
+      "materials": [
+        "TPU_75D",
+        "Nylon_PA12",
+        "ABS",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": 99,
+      "score": 0.6433926224412272,
+      "safety_factor": 22.868668702622443,
+      "life_km": 952901955.8407964,
+      "stiffness_kN_m": 797.8966951553292,
+      "mass_kg": 1.957123288682645,
+      "materials": [
+        "TPU_95A",
+        "TPU_75D",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": 35,
+      "score": 0.6112711385258601,
+      "safety_factor": 21.40480735751782,
+      "life_km": 948189902.1544706,
+      "stiffness_kN_m": 797.8695618102837,
+      "mass_kg": 2.5312967293163005,
+      "materials": [
+        "TPU_95A",
+        "TPU_75D",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": 76,
+      "score": 0.6028536693656582,
+      "safety_factor": 13.689107321487642,
+      "life_km": 954327355.6259779,
+      "stiffness_kN_m": 798.6067741929683,
+      "mass_kg": 1.973701769760305,
+      "materials": [
+        "TPU_85A",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 8,
+      "id": 82,
+      "score": 0.5993410532157984,
+      "safety_factor": 3.121457308751359,
+      "life_km": 35855267.100265324,
+      "stiffness_kN_m": 793.0659485481898,
+      "mass_kg": 0.7250689527859169,
+      "materials": [
+        "TPU_85A",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 9,
+      "id": 18,
+      "score": 0.5991279400597391,
+      "safety_factor": 13.419654981168177,
+      "life_km": 959164556.9062395,
+      "stiffness_kN_m": 799.0577257706992,
+      "mass_kg": 2.0229529061228066,
+      "materials": [
+        "TPU_85A",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 10,
+      "id": 22,
+      "score": 0.5866665540322102,
+      "safety_factor": 2.001006522650127,
+      "life_km": 880534.2523887762,
+      "stiffness_kN_m": 780.9379042785432,
+      "mass_kg": 0.5212213126718649,
+      "materials": [
+        "TPU_75D",
+        "ABS",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 11,
+      "id": 2,
+      "score": 0.5863201878961494,
+      "safety_factor": 13.949527966669981,
+      "life_km": 942602508.9477865,
+      "stiffness_kN_m": 799.0027049242149,
+      "mass_kg": 1.9074780655668986,
+      "materials": [
+        "TPU_95A",
+        "ABS",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 12,
+      "id": 75,
+      "score": 0.5774558956641782,
+      "safety_factor": 14.178964377535335,
+      "life_km": 968522027.0164028,
+      "stiffness_kN_m": 798.8140592882158,
+      "mass_kg": 1.8742625474021537,
+      "materials": [
+        "TPU_95A",
+        "TPU_75D",
+        "ABS",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 13,
+      "id": 74,
+      "score": 0.5700566832307951,
+      "safety_factor": 8.496657694018781,
+      "life_km": 969644664.3411481,
+      "stiffness_kN_m": 791.6560371687852,
+      "mass_kg": 2.010081644823217,
+      "materials": [
+        "TPU_85A",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 14,
+      "id": 97,
+      "score": 0.5697303290497397,
+      "safety_factor": 12.836509413996076,
+      "life_km": 946005722.8393537,
+      "stiffness_kN_m": 793.9518189442731,
+      "mass_kg": 2.0260856040421085,
+      "materials": [
+        "TPU_85A",
+        "TPU_75D",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 15,
+      "id": 1,
+      "score": 0.5578132329343899,
+      "safety_factor": 8.525782053207644,
+      "life_km": 958371554.7197788,
+      "stiffness_kN_m": 798.917182849888,
+      "mass_kg": 2.4020422798108805,
+      "materials": [
+        "TPU_85A",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 16,
+      "id": 43,
+      "score": 0.5472833717924758,
+      "safety_factor": 2.266395427628163,
+      "life_km": 2496837.4862618754,
+      "stiffness_kN_m": 784.7510090202082,
+      "mass_kg": 0.9148266561786099,
+      "materials": [
+        "TPU_95A",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 17,
+      "id": 4,
+      "score": 0.5434884657352766,
+      "safety_factor": 3.849570932782044,
+      "life_km": 207739397.9768084,
+      "stiffness_kN_m": 779.439047278414,
+      "mass_kg": 2.1580068467282008,
+      "materials": [
+        "TPU_85A",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 18,
+      "id": 79,
+      "score": 0.5351534512035072,
+      "safety_factor": 13.230498629944945,
+      "life_km": 975697661.3327693,
+      "stiffness_kN_m": 793.1950701415066,
+      "mass_kg": 3.346083045694926,
+      "materials": [
+        "TPU_85A",
+        "TPU_75D",
+        "ABS",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 19,
+      "id": 48,
+      "score": 0.5306381419735529,
+      "safety_factor": 12.182296840101516,
+      "life_km": 1569229082.3090572,
+      "stiffness_kN_m": 789.2105784891311,
+      "mass_kg": 5.4782662606909875,
+      "materials": [
+        "TPU_85A",
+        "PLA"
+      ]
+    },
+    {
+      "rank": 20,
+      "id": 53,
+      "score": 0.5249155686948458,
+      "safety_factor": 1.4584100763576617,
+      "life_km": 64840.20409918634,
+      "stiffness_kN_m": 789.5914497203298,
+      "mass_kg": 0.6456911991261767,
+      "materials": [
+        "TPU_85A",
+        "TPU_75D",
+        "PLA"
+      ]
+    }
+  ]
+}
